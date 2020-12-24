@@ -20,6 +20,7 @@ def create_tables():
 
 
 api.add_resource(Movie, '/movie')
+api.add_resource(Movie, '/movies')
 
 db.init_app(app)
 
